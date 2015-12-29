@@ -21,6 +21,6 @@ defmodule WokEspec.Mixfile do
     [{:espec, "~> 0.8.5"},
      {:httpoison, "~> 0.8.0"},
      {:poison, "~> 1.5"},
-     {:cowboy, "~> 1.0.4"}]
+     {:cowboy, ~r/.*/, git: "https://github.com/ninenines/cowboy.git", branch: "master"}]
   end
 end
