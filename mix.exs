@@ -7,6 +7,7 @@ defmodule WokEspec.Mixfile do
      elixir: "~> 1.1",
      build_embedded: Mix.env == :prod,
      start_permanent: Mix.env == :prod,
+     preferred_cli_env: [espec: :test],
      deps: deps]
   end
 
